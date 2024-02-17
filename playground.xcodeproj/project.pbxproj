@@ -103,9 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				2C2BD8762B80C72F0032FEE9 /* Models */,
-				2C2BD8452B80BFB60032FEE9 /* playgroundApp.swift */,
 				2C2BD86F2B80C3BF0032FEE9 /* Views */,
 				2C2BD8492B80BFB70032FEE9 /* Assets.xcassets */,
+				2C2BD8452B80BFB60032FEE9 /* playgroundApp.swift */,
 				2C2BD84B2B80BFB70032FEE9 /* Preview Content */,
 			);
 			path = playground;

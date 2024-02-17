@@ -8,22 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    let menus: [Menu]
     var body: some View {
-        VStack {
-            Text("Playground")
-                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                Text("Route 1")
-            })
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                Text("Route 2")
-            })
-          
+        List(menus) {
+            menu in CardView(menu: menu)
+            
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView(menus: Menu.sampleData)
+    }
 }

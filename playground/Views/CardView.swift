@@ -17,6 +17,7 @@ struct CardView: View {
             Text(menu.label)
                 .font(.caption)
         }
+        .padding()
     }
 }
 
