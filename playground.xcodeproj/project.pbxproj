@@ -14,6 +14,10 @@
 		2C2BD8572B80BFB70032FEE9 /* playgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2BD8562B80BFB70032FEE9 /* playgroundTests.swift */; };
 		2C2BD8612B80BFB70032FEE9 /* playgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2BD8602B80BFB70032FEE9 /* playgroundUITests.swift */; };
 		2C2BD8632B80BFB70032FEE9 /* playgroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2BD8622B80BFB70032FEE9 /* playgroundUITestsLaunchTests.swift */; };
+		2C2BD8712B80C5BC0032FEE9 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2BD8702B80C5BC0032FEE9 /* TextView.swift */; };
+		2C2BD8732B80C5E90032FEE9 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2BD8722B80C5E90032FEE9 /* ButtonView.swift */; };
+		2C2BD8752B80C6F00032FEE9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2BD8742B80C6F00032FEE9 /* CardView.swift */; };
+		2C2BD8782B80C7530032FEE9 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2BD8772B80C7530032FEE9 /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		2C2BD85C2B80BFB70032FEE9 /* playgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playgroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2BD8602B80BFB70032FEE9 /* playgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playgroundUITests.swift; sourceTree = "<group>"; };
 		2C2BD8622B80BFB70032FEE9 /* playgroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playgroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2C2BD8702B80C5BC0032FEE9 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		2C2BD8722B80C5E90032FEE9 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		2C2BD8742B80C6F00032FEE9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2C2BD8772B80C7530032FEE9 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,9 @@
 		2C2BD8442B80BFB60032FEE9 /* playground */ = {
 			isa = PBXGroup;
 			children = (
+				2C2BD8762B80C72F0032FEE9 /* Models */,
 				2C2BD8452B80BFB60032FEE9 /* playgroundApp.swift */,
-				2C2BD8472B80BFB60032FEE9 /* ContentView.swift */,
+				2C2BD86F2B80C3BF0032FEE9 /* Views */,
 				2C2BD8492B80BFB70032FEE9 /* Assets.xcassets */,
 				2C2BD84B2B80BFB70032FEE9 /* Preview Content */,
 			);
@@ -125,6 +134,25 @@
 				2C2BD8622B80BFB70032FEE9 /* playgroundUITestsLaunchTests.swift */,
 			);
 			path = playgroundUITests;
+			sourceTree = "<group>";
+		};
+		2C2BD86F2B80C3BF0032FEE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C2BD8472B80BFB60032FEE9 /* ContentView.swift */,
+				2C2BD8702B80C5BC0032FEE9 /* TextView.swift */,
+				2C2BD8722B80C5E90032FEE9 /* ButtonView.swift */,
+				2C2BD8742B80C6F00032FEE9 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C2BD8762B80C72F0032FEE9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C2BD8772B80C7530032FEE9 /* Menu.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C2BD8782B80C7530032FEE9 /* Menu.swift in Sources */,
+				2C2BD8712B80C5BC0032FEE9 /* TextView.swift in Sources */,
 				2C2BD8482B80BFB60032FEE9 /* ContentView.swift in Sources */,
+				2C2BD8732B80C5E90032FEE9 /* ButtonView.swift in Sources */,
 				2C2BD8462B80BFB60032FEE9 /* playgroundApp.swift in Sources */,
+				2C2BD8752B80C6F00032FEE9 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
