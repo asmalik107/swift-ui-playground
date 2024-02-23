@@ -11,7 +11,8 @@ import SwiftUI
 struct playgroundApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(menus: Menu.sampleData)
+            //ContentView(menus: Menu.sampleData)
+            ActionView()
         }
     }
 }

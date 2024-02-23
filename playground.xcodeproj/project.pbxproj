@@ -18,6 +18,7 @@
 		2C2BD8732B80C5E90032FEE9 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2BD8722B80C5E90032FEE9 /* ButtonView.swift */; };
 		2C2BD8752B80C6F00032FEE9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2BD8742B80C6F00032FEE9 /* CardView.swift */; };
 		2C2BD8782B80C7530032FEE9 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2BD8772B80C7530032FEE9 /* Menu.swift */; };
+		2C2BD87A2B84B8C30032FEE9 /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2BD8792B84B8C30032FEE9 /* ActionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		2C2BD8722B80C5E90032FEE9 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		2C2BD8742B80C6F00032FEE9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		2C2BD8772B80C7530032FEE9 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		2C2BD8792B84B8C30032FEE9 /* ActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				2C2BD8702B80C5BC0032FEE9 /* TextView.swift */,
 				2C2BD8722B80C5E90032FEE9 /* ButtonView.swift */,
 				2C2BD8742B80C6F00032FEE9 /* CardView.swift */,
+				2C2BD8792B84B8C30032FEE9 /* ActionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				2C2BD8732B80C5E90032FEE9 /* ButtonView.swift in Sources */,
 				2C2BD8462B80BFB60032FEE9 /* playgroundApp.swift in Sources */,
 				2C2BD8752B80C6F00032FEE9 /* CardView.swift in Sources */,
+				2C2BD87A2B84B8C30032FEE9 /* ActionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"playground/Preview Content\"";
+				DEVELOPMENT_TEAM = 5ES874S4M4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -482,6 +487,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"playground/Preview Content\"";
+				DEVELOPMENT_TEAM = 5ES874S4M4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
